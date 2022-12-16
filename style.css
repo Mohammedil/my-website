@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+
+header {
+    background-color: rgb(202, 96, 96);
+    width: 100%;
+    min-width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: rgb(95, 94, 97);
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imeges\\what-is-data-analytics.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: rgb(202, 96, 96);
+    background-color: rgb(54, 51, 65);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.6s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(202, 96, 96);
+    transform: scale(1.1);
+    color: black;
+}
+
+.social-icons a{
+    color: rgb(202, 96, 96);
+    font-size: 1.5em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(202, 96, 96);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 17em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.6s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: rgb(202, 96, 96);
+    font-size: 5em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(202, 96, 96);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: rgb(54, 51, 65);
+}
+
+.projects .content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.6s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: black;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: rgb(95, 94, 97);
+}
+
+.more-details:hover{
+    color: rgb(202, 96, 96);
+}
+
+.contact .icon {
+    font-size: 3.5em;
+}
+
+.contact .info h3{
+    color: black;
+}
+
+.contact .info p {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: rgb(54, 51, 65);
+    width: 100%;
+    min-width: 100%;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: rgb(202, 96, 96);
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    color: #fff;
+    padding: 0 12px 0 0;
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    secttion{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:812px){
+
+    .navigation a{
+        padding-left: 8px;
+    }
+
+    .title{
+        font-size: 1.4em;
+    }
+
+    secttion{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.3em;
+    }
+
+    .project-card{
+        min-height: 9em;
+        width: 15em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .info p {
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+    .project-info{
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width:660px){
+
+    .navigation a{
+        padding-left: 8px;
+    }
+
+    .title{
+        font-size: 1em;
+    }
+
+    .main h2{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+    .main h2 span{
+        margin-top: 10px;
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    
+    .main h3{
+        color: black;
+        font-size: 1.2em;
+        font-weight: 450;
+    }
+    
+    .main-btn {
+        font-size: 0.9em;
+        font-weight: 450;
+        display: inline-block;
+        padding: 0.9375em 1.1875em;
+    }
+
+    .social-icons a{
+        font-size: 0.9em;
+        padding-right: 15px;
+    }
+
+    .card{
+        width: 30em;
+        padding: 10px;
+        margin: 3px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info h3{
+        font-size: 0.5em;
+        font-weight: 500;
+        margin: 2px;
+        padding-right: 8px;
+    }
+
+    .info p{
+        font-size: 0.4em;
+        font-weight: 500;
+    }
+
+    .icon {
+        font-size: 2em;
+    }
+
+    .contact .icon {
+        font-size: 2em;
+    }
+    
+    .contact .info p {
+        font-size: 0.4em;
+        font-weight: 400;
+    }
+    
+    secttion{
+        padding: 80px 20px;
+    }
+    
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    
+    .main-content h3{
+        font-size: 1.3em;
+    }
+
+    .project-category {
+        font-size: 0.7em;
+    }
+    
+    .project-title {
+        font-size: 0.3;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+    
+    .project-card{
+        min-height: 9em;
+        width: 11em;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card{
+        flex-direction: row;
+        align-items: center;
+        width: 8em;
+    }
+
+    .footer{
+        color: #fff;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-title {
+        font-size: 0.5em;
+        font-weight: 300;
+    }
+    
+    
+    .footer .social-icons a{
+        font-size: 0.7em;
+        color: #fff;
+        padding: 0 9px 0 0;
+    }
+    .project-info{
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width:560px){
+
+    .logo{
+        font-weight: 500;
+        font-size: 1.4em;
+    }
+
+
+    .navigation{
+        font-size: 0.9em;
+        font-weight: 300;
+        padding-left: 6px;
+    }
+
+    .title{
+        font-size: 0.8em;
+    }
+
+    .project-category {
+        font-size: 0.5em;
+    }
+    
+    .project-title {
+        font-size: 0.1;
+        font-weight: 400;
+    }
+    
+    .project-card{
+        width: 9em;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width:560px){
+    .logo{
+        font-weight: 600;
+        font-size: 1.4em;
+    }
+    .navigation{
+        font-size: 0.6em;
+        font-weight: 200;
+        padding-left: 5px;
+    }
+    .card{
+        min-width: 8em;
+    }
+
+    .main h2{
+        font-size: 0.8em;
+        font-weight: 300;
+        margin-right: 40px;
+
+    }
+    .main h2 span{
+        margin-top: 8px;
+        font-size: 2.2em;
+        font-weight: 400;
+    }
+    .main h3{
+        color: black;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .main-btn {
+        font-size: 0.7em;
+        font-weight: 350;
+        display: inline-block;
+        padding: 0.7375em 1em;
+    }
+    .social-icons a{
+        font-size: 0.7em;
+        padding-right: 10px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .projects .content{
+        margin-top: 30px;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .project-category {
+        font-size: 0.3em;
+    }
+    .project-card{
+        position: relative;
+        left: 30px;
+    }
+    
+
+    .footer{
+        color: #fff;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-title {
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+    .footer .social-icons a{
+        font-size: 0.8em;
+        padding: 0 7px 0 0;
+    }
+
+}
+@media (max-width:500px){
+    .project-card{
+        position: relative;
+        left: 50px;
+    }
+}
+@media (max-width:450px){
+    .project-card{
+        position: relative;
+        left: 60px;
+    }
+}
+
+
+@media (max-width:425px){
+    header{
+        min-width: 100%;
+    }
+    .project-card{
+        position: relative;
+        left: 80px;
+    }
+    .footer-title{
+        font-size: 0.4em;
+    }
+    .footer{
+        min-width: 100%;
+    }
+}
