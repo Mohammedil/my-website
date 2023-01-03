@@ -13,6 +13,7 @@ header {
     background-color: rgb(202, 96, 96);
     width: 100%;
     min-width: 100%;
+    max-width: 100%;
     position: fixed;
     z-index: 999;
     display: flex;
@@ -230,6 +231,7 @@ section {
     background-color: rgb(54, 51, 65);
     width: 100%;
     min-width: 100%;
+    max-width: 100%;
     color: #fff;
     padding: 1em;
     display: flex;
